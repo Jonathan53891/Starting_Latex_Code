@@ -1,0 +1,340 @@
+\documentclass[12pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=6mm]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{Homework 2}
+\author{Jonathan Pilafas}
+
+\begin{document}
+
+\maketitle
+
+\section*{17)} 
+
+a) We know that if A is a square matrix order \textit{n}, then the determinant of A, or det(A), by \textit{i}th row expansion is:
+\\
+\\
+det(A) = $a_{i1}$$C_{i1}$ + $a_{i2}$$C_{i2}$ + $a_{i3}$$C_{i3}$ + $a_{i4}$$C_{i4}$ + ... + $a_{in}$$C_{in}$, where $C_{ij}$ is the co-factor of the matrix A.
+\\
+\\
+Given the matrix
+\[
+	A = \begin{bmatrix}
+		-3 & 2 & 1 \\
+		4 & 5 & 6 \\
+		2 & -3 & 1
+	\end{bmatrix}
+\]
+In question 15, we already found the co-factors, and we will use
+the second row to find the determinant. So we have:
+\begin{center}
+$C_{21}$ = -5 \\
+$C_{22}$ = -5 \\
+$C_{23}$ = -5
+\end{center}
+Thus, we can find the determinant:
+\begin{center}
+det(A) = $a_{21}$$C_{21}$ + $a_{22}$$C_{22}$ + $a_{23}$$C_{23}$\\
+det(A) = (4)(-5)+(5)(-5)+(6)(-5) \\
+det(A) = -20 - 25 - 30
+\[
+\boxed{det(A) = -75}
+\]
+\end{center}
+\\
+b) We need to find the determinant by the second column. If A is a square matrix of order n, then det(A) with respect to the expansion by jth column is given by:
+\\
+\\
+det(A) = $a_{1j}$$C_{1j}$ + $a_{2j}$$C_{2j}$ + $a_{3j}$$C_{3j}$ + $a_{4j}$$C_{4j}$ + ... + $a_{nj}$$C_{nj}$
+\\
+\\
+We know from question 15 that
+\begin{center}
+$C_{12}$ = 8 \\
+$C_{22}$ = -5 \\
+$C_{32}$ = 22
+\end{center}
+Thus, we can find the determinant:
+\begin{center}
+det(A) = $a_{12}$$C_{12}$ + $a_{22}$$C_{22}$ + $a_{32}$$C_{22}$\\
+det(A) = (2)(8)+(5)(-5)+(-3)(22) \\
+det(A) = 16 - 25 - 66
+\[
+\boxed{det(A) = -75}
+\]
+\end{center}
+\newpage
+
+\section*{18)} 
+To begin, we must find the co-factors of the given matrix in question 16.
+\\
+\\
+If is A is a square matrix, then the minor $M_{ij}$ of the entry $a_{ij}$ is the determinant of the matrix obtained by deleting the \textit{i}th row and \textit{j}th column of A. And the co-factor $C_{ij}$ of the entry $a_{ij}$ is $C_{ij}$ = $(-i)^{i+j}$$M_{ij}$.
+\\
+\\
+Given the matrix
+\[
+	A = \begin{bmatrix}
+		-3 & 4 & 2 \\
+		6 & 3 & 1 \\
+		4 & -7 & -8
+	\end{bmatrix}
+\]
+\begin{center} 
+AND 
+\\
+det(A) = ad - bc (for 2x2 matrices)
+\end{center}
+
+$M_{11}$ = det([\begin{bmatrix}
+3&1\\
+-7&-8\\
+\end{bmatrix}]) = ad - bc = (3)(-8) - (1)(-7) = -24 - (-7) = -17
+
+$M_{12}$ = det([\begin{bmatrix}
+6&1\\
+4&-8\\
+\end{bmatrix}]) = ad - bc = (6)(-8) - (1)(4) = -48 - 4 = -52
+
+$M_{13}$ = det([\begin{bmatrix}
+3&1\\
+-7&-8\\
+\end{bmatrix}]) = ad - bc = (3)(-8) - (1)(-7) = -24 - (-7) = -17
+
+$M_{11}$ = det([\begin{bmatrix}
+3&1\\
+-7&-8\\
+\end{bmatrix}]) = ad - bc = (3)(-8) - (1)(-7) = -24 - (-7) = -17
+
+$M_{11}$ = det([\begin{bmatrix}
+3&1\\
+-7&-8\\
+\end{bmatrix}]) = ad - bc = (3)(-8) - (1)(-7) = -24 - (-7) = -17
+
+$M_{11}$ = det([\begin{bmatrix}
+3&1\\
+-7&-8\\
+\end{bmatrix}]) = ad - bc = (3)(-8) - (1)(-7) = -24 - (-7) = -17
+
+$M_{11}$ = det([\begin{bmatrix}
+3&1\\
+-7&-8\\
+\end{bmatrix}]) = ad - bc = (3)(-8) - (1)(-7) = -24 - (-7) = -17
+
+$M_{11}$ = det([\begin{bmatrix}
+3&1\\
+-7&-8\\
+\end{bmatrix}]) = ad - bc = (3)(-8) - (1)(-7) = -24 - (-7) = -17
+
+$M_{11}$ = det([\begin{bmatrix}
+3&1\\
+-7&-8\\
+\end{bmatrix}]) = ad - bc = (3)(-8) - (1)(-7) = -24 - (-7) = -17
+
+a) We know that if A is a square matrix order \textit{n}, then the determinant of A, or det(A), by \textit{i}th row expansion is:
+\\
+\\
+det(A) = $a_{i1}$$C_{i1}$ + $a_{i2}$$C_{i2}$ + $a_{i3}$$C_{i3}$ + $a_{i4}$$C_{i4}$ + ... + $a_{in}$$C_{in}$, where $C_{ij}$ is the co-factor of the matrix A.
+\\
+\\
+Given the matrix
+\[
+	A = \begin{bmatrix}
+		-3 & 2 & 1 \\
+		4 & 5 & 6 \\
+		2 & -3 & 1
+	\end{bmatrix}
+\]
+In question 15, we already found the co-factors, and we will use
+the second row to find the determinant. So we have:
+\begin{center}
+$C_{21}$ = -5 \\
+$C_{22}$ = -5 \\
+$C_{23}$ = -5
+\end{center}
+Thus, we can find the determinant:
+\begin{center}
+det(A) = $a_{21}$$C_{21}$ + $a_{22}$$C_{22}$ + $a_{23}$$C_{23}$\\
+det(A) = (4)(-5)+(5)(-5)+(6)(-5) \\
+det(A) = -20 - 25 - 30
+\[
+\boxed{det(A) = -75}
+\]
+\end{center}
+\\
+b) We need to find the determinant by the second column. If A is a square matrix of order n, then det(A) with respect to the expansion by jth column is given by:
+\\
+\\
+det(A) = $a_{1j}$$C_{1j}$ + $a_{2j}$$C_{2j}$ + $a_{3j}$$C_{3j}$ + $a_{4j}$$C_{4j}$ + ... + $a_{nj}$$C_{nj}$
+\\
+\\
+We know from question 15 that
+\begin{center}
+$C_{12}$ = 8 \\
+$C_{22}$ = -5 \\
+$C_{32}$ = 22
+\end{center}
+Thus, we can find the determinant:
+\begin{center}
+det(A) = $a_{12}$$C_{12}$ + $a_{22}$$C_{22}$ + $a_{32}$$C_{22}$\\
+det(A) = (2)(8)+(5)(-5)+(-3)(22) \\
+det(A) = 16 - 25 - 66
+\[
+\boxed{det(A) = -75}
+\]
+\end{center}
+\newpage
+
+
+
+
+
+
+\section{Equation arrays}
+
+In the flow of a fluid film we may report
+\begin{eqnarray}
+	u_\alpha & = & \epsilon^2 \kappa_{xxx} 
+	\left( y-\frac{1}{2}y^2 \right),
+	\label{equ}  \\
+	v & = & \epsilon^3 \kappa_{xxx} y\,,
+	\label{eqv}  \\
+	p & = & \epsilon \kappa_{xx}\,.
+	\label{eqp}
+\end{eqnarray}
+Alternatively, the curl of a vector field $(u,v,w)$ may be written 
+with only one equation number:
+\begin{eqnarray}
+	\omega_1 & = &
+	\frac{\partial w}{\partial y}-\frac{\partial v}{\partial z}\,,
+	\nonumber  \\
+	\omega_2 & = & 
+	\frac{\partial u}{\partial z}-\frac{\partial w}{\partial x}\,,
+	\label{eqcurl}  \\
+	\omega_3 & = & 
+	\frac{\partial v}{\partial x}-\frac{\partial u}{\partial y}\,.
+	\nonumber
+\end{eqnarray}
+Whereas a derivation may look like
+\begin{eqnarray*}
+	(p\wedge q)\vee(p\wedge\neg q) & = & p\wedge(q\vee\neg q)
+	\quad\text{by distributive law}  \\
+	 & = & p\wedge T \quad\text{by excluded middle}  \\
+	 & = & p \quad\text{by identity}
+\end{eqnarray*}
+
+
+
+
+
+
+\section{Functions}
+
+Observe that trigonometric and other elementary functions are typeset 
+properly, even to the extent of providing a thin space if followed by 
+a single letter argument:
+\[
+	\exp(i\theta)=\cos\theta +i\sin\theta\,,\quad
+	\sinh(\log x)=\frac{1}{2}\left( x-\frac{1}{x} \right).
+\]
+With sub- and super-scripts placed properly on more complicated 
+functions,
+\[
+	\lim_{q\to\infty}\|f(x)\|_q 
+	=\max_{x}|f(x)|,
+\]
+and large operators, such as integrals and
+\begin{eqnarray*}
+	e^x & = & \sum_{n=0}^\infty \frac{x^n}{n!}
+	\quad\text{where }n!=\prod_{i=1}^n i\,,  \\
+	\overline{U_\alpha} & = & \bigcap_\alpha U_\alpha\,.
+\end{eqnarray*}
+In inline mathematics the scripts are correctly placed to the side in 
+order to conserve vertical space, as in
+\(
+	1/(1-x)=\sum_{n=0}^\infty x^n.
+\)
+
+
+
+
+
+
+\section{Accents}
+
+Mathematical accents are performed by a short command with one 
+argument, such as
+\[
+	\tilde f(\omega)=\frac{1}{2\pi}
+	\int_{-\infty}^\infty f(x)e^{-i\omega x}\,dx\,,
+\]
+or
+\[
+	\dot{\vec \omega}=\vec r\times\vec I\,.
+\]
+
+
+
+
+
+\section{Command definition}
+
+\newcommand{\Ai}{\operatorname{Ai}} 
+The Airy function, $\Ai(x)$, may be incorrectly defined as this 
+integral
+\[
+	\Ai(x)=\int\exp(s^3+isx)\,ds\,.
+\]
+
+\newcommand{\D}[2]{\frac{\partial #2}{\partial #1}}
+\newcommand{\DD}[2]{\frac{\partial^2 #2}{\partial #1^2}}
+\renewcommand{\vec}[1]{\boldsymbol{#1}}
+
+This vector identity serves nicely to illustrate two of the new 
+commands:
+\[
+	\vec\nabla\times\vec q
+	=\vec i\left(\D yw-\D zv\right)
+	+\vec j\left(\D zu-\D xw\right)
+	+\vec k\left(\D xv-\D yu\right).
+\]
+
+Recall that typesetting multi-line mathematics is an art normally too hard for computer recipes.  Nonetheless, if you need to be automatically flexible about multi-line mathematics, and you do not mind some rough typesetting, then perhaps invoke \verb|\parbox| to help as follows: 
+% The \verb|breqn| package is not yet reliable enough for general use.
+\newcommand{\parmath}[2][0.8\linewidth]{\parbox[t]{#1}%
+    {\raggedright\linespread{1.2}\selectfont\(#2\)}}
+\[
+u_1=\parmath{ -2 \gamma  \epsilon^{2} s_{2}+\mu  \epsilon^{3} \big( \frac{3}{8} s_{2}+\frac{1}{8} s_{1} i\big)+\epsilon^{3} \big( -\frac{81}{32} s_{4} s_{2}^{2}-\frac{27}{16} s_{4} s_{2} s_{1} i+\frac{9}{32} s_{4} s_{1}^{2}+\frac{27}{32} s_{3} s_{2}^{2} i-\frac{9}{16} s_{3} s_{2} s_{1}-\frac{3}{32} s_{3} s_{1}^{2} i\big) +\int_a^b 1-2x+3x^2-4x^3\,dx }
+\]
+Also, sometimes use \verb|\parbox| to typeset multiline entries in tables.
+
+
+\section{Theorems et al.}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+
+\begin{definition}[right-angled triangles] \label{def:tri}
+A \emph{right-angled triangle} is a triangle whose sides of length~\(a\), \(b\) and~\(c\), in some permutation of order, satisfies \(a^2+b^2=c^2\).
+\end{definition}
+
+\begin{lemma} 
+The triangle with sides of length~\(3\), \(4\) and~\(5\) is right-angled.
+\end{lemma}
+
+This lemma follows from the Definition~\ref{def:tri} as \(3^2+4^2=9+16=25=5^2\).
+
+\begin{theorem}[Pythagorean triplets] \label{thm:py}
+Triangles with sides of length \(a=p^2-q^2\), \(b=2pq\) and \(c=p^2+q^2\) are right-angled triangles.
+\end{theorem}
+
+Prove this Theorem~\ref{thm:py} by the algebra \(a^2+b^2 =(p^2-q^2)^2+(2pq)^2
+=p^4-2p^2q^2+q^4+4p^2q^2
+=p^4+2p^2q^2+q^4
+=(p^2+q^2)^2 =c^2\).
+
+
+\end{document}
